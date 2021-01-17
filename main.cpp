@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 		cout<<"Enter your choice:"<<endl;
 		cin>>yourchoise;
 		int guess = rand() % 10;
-		cout<<"My choice is "<<all3[guess]<<endl;
+		cout<<"Computer's choice is "<<all3[guess]<<endl;
 		if(yourchoise == "sto" and all3[guess] == "sci"){
 			cout<<"You got it right :)"<<endl;
 			if(computer>0) computer--;
